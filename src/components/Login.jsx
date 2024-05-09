@@ -4,7 +4,7 @@ import styled from "styled-components";
 function Login() {
   const handleClick = () => {
     const clientId = "a6611d557816459088db9f817a69ba5f";
-    const redirectUrl = "http://localhost:3000/";
+    const redirectUrl = "https://spotify-clone-1-orpin.vercel.app//";
     const apiUrl = "https://accounts.spotify.com/authorize";
     const scope = [
       "user-read-email",
